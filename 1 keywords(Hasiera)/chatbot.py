@@ -10,7 +10,6 @@ CORS(app)
 
 
 
-
 def clean_text(query):
 
     sentence = query.lower()
