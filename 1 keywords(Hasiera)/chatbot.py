@@ -9,7 +9,6 @@ app = Flask(__name__)
 CORS(app)
 
 
-
 def clean_text(query):
 
     sentence = query.lower()
