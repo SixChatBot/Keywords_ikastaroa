@@ -1,4 +1,5 @@
 keywords = {
+
     "hola": "request_saludo",
     "dias": "request_saludo",
     "dia": "request_saludo",
@@ -44,17 +45,12 @@ keywords = {
     "matriculas" : "request_matricula",
 
     "contacto" : "request_contacto",
-    "telefono": "request_contacto",
-    "tlfno": "request_contacto",
     "email": "request_contacto",
     "direccion": "request_contacto",
     "localizacion": "request_contacto",
     "sitio": "request_contacto",
     "encuentra": "request_contacto",
     "e-mail": "request_contacto",
-    "tlfn": "request_contacto",
-    "llamar": "request_contacto",
-    "llamada": "request_contacto",
     "correo": "request_contacto",
     "electronico": "request_contacto",
     "gmail": "request_contacto",
@@ -62,6 +58,11 @@ keywords = {
     "g-mail": "request_contacto",
     "mail": "request_contacto",
       
+    "telefono": "request_tlfn",
+    "tlfno": "request_tlfn", 
+    "tlfn": "request_tlfn",
+    "llamar": "request_tlfn",
+    "llamada": "request_tlfn",
 
     "oferta": "request_oferta",
     "ofertas": "request_oferta",
@@ -75,8 +76,13 @@ keywords = {
     "titulacion": "request_oferta",
     "formacion": "request_oferta",
     "formaciones": "request_oferta",
-    
 
+    "inskripzioa": "request_inscripción",
+    "izen"and"ematea": "request_inscripción",
+    "inskripzioak": "request_inscripción",
+    "izen"and"emateak": "request_inscripción",
+    "inskripzio": "request_inscripción",
+    "izen"and"emate": "request_inscripción",
 }
 
 
@@ -89,6 +95,8 @@ answer = {
     "request_matricula": "Para realizar la matrícula debes esperar a julio. La matrícula puedes realizarla aquí: xxx (URL)", 
     "request_contacto" : "Los datos de contacto del centro son: Teléfono: XXX XXX XXX. Email: xxxxxxx@gmail.com ",
     "request_oferta": "El centro tiene una gran oferta de formaciones para realizar. Puedes informarte sobre ellas aquí: xxx (URL)",
+    "request_inscripción": "Izen ematea matrikula edo aurrematrikularako da?",
+    "request_tlfn":"Zentruako telefono zenbakia hurrengoa da: XXX XXX XXX",
 
     "request_unknown": "¡Vaya! Parece que no te he entendido muy bien. Puedo ayudarte a contactar con el centro, proporcionarte información sobre matricula y oferta"
 }
