@@ -6,13 +6,18 @@ keywords = {
     "buenos": "request_saludo",
     "buen": "request_saludo",
     "holi": "request_saludo",
-    
+    "kaixo": "request_saludo",
+    "aupa": "request_saludo",
+    "iep": "request_saludo",
 
     "adios": "request_despedida",
     "hasta": "request_despedida",
     "luego": "request_despedida",
     "vista": "request_despedida",
     "agur": "request_despedida",
+    "gracias": "request_despedida",
+    "eskerrik"and"asko": "request_despedida",
+    "aio": "request_despedida",
 
  
     "horario": "request_contacto_horarios",
@@ -21,6 +26,8 @@ keywords = {
     "abierta": "request_contacto_horarios",
     "secretaria": "request_contacto_horarios",
     "horarios": "request_contacto_horarios",
+    "abierto": "request_contacto_horarios",
+    "centro": "request_contacto_horarios",
 
 
     "prematricula" : "request_pre_matricula",
@@ -43,6 +50,7 @@ keywords = {
     "matricular": "request_matricula",
     "matriculacion": "request_matricula",
     "matriculas" : "request_matricula",
+
 
     "contacto" : "request_contacto",
     "email": "request_contacto",
